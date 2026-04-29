@@ -1,0 +1,38 @@
+{
+  "objects": {
+    "1": {
+      "isa": "PBXGroup",
+      "children": ["2", "3", "4", "5"],
+      "sourceTree": "<group>",
+      "name": "VibinApp"
+    },
+    "2": {
+      "isa": "PBXGroup",
+      "children": [],
+      "sourceTree": "<group>",
+      "name": "Models",
+      "path": "VibinApp/Models"
+    },
+    "3": {
+      "isa": "PBXGroup",
+      "children": [],
+      "sourceTree": "<group>",
+      "name": "Services",
+      "path": "VibinApp/Services"
+    },
+    "4": {
+      "isa": "PBXGroup",
+      "children": [],
+      "sourceTree": "<group>",
+      "name": "Views",
+      "path": "VibinApp/Views"
+    },
+    "5": {
+      "isa": "PBXGroup",
+      "children": [],
+      "sourceTree": "<group>",
+      "name": "Supporting Files",
+      "path": "VibinApp"
+    }
+  }
+}
