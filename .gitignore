@@ -1,0 +1,44 @@
+# Xcode
+#
+# Various
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+Pods/
+
+# Build
+build/
+Build/
+
+# CocoaPods
+Pods/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Xcode
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# macOS
+.DS_Store
+*/**/.DS_Store
+
+# Temp files
+*~
+*.swp
+*.lock
+*~
+
+# Recommended by GitHub
+# https://github.com/github/gitignore/blob/main/Swift.gitignore
