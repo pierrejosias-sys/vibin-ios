@@ -20,7 +20,7 @@ targets:
       - VibinApp/Assets.xcassets
     settings:
       INFOPLIST_FILE: VibinApp/Info.plist
-      PRODUCT_BUNDLE_IDENTIFIER: com.vibin.app
+      PRODUCT_BUNDLE_IDENTIFIER: com.vibin.apparel.ios
       SWIFT_VERSION: "5.0"
       MARKETING_VERSION: "1.0"
       CURRENT_PROJECT_VERSION: "1"
