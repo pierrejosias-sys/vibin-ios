@@ -1,38 +1,326 @@
+// !$*UTF8*$!
 {
-  "objects": {
-    "1": {
-      "isa": "PBXGroup",
-      "children": ["2", "3", "4", "5"],
-      "sourceTree": "<group>",
-      "name": "VibinApp"
-    },
-    "2": {
-      "isa": "PBXGroup",
-      "children": [],
-      "sourceTree": "<group>",
-      "name": "Models",
-      "path": "VibinApp/Models"
-    },
-    "3": {
-      "isa": "PBXGroup",
-      "children": [],
-      "sourceTree": "<group>",
-      "name": "Services",
-      "path": "VibinApp/Services"
-    },
-    "4": {
-      "isa": "PBXGroup",
-      "children": [],
-      "sourceTree": "<group>",
-      "name": "Views",
-      "path": "VibinApp/Views"
-    },
-    "5": {
-      "isa": "PBXGroup",
-      "children": [],
-      "sourceTree": "<group>",
-      "name": "Supporting Files",
-      "path": "VibinApp"
-    }
-  }
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE1234567890ABCD /* VibinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEABCDEF12345678 /* VibinApp.swift */; };
+		BE1234567890ABCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEABCDEF12345679 /* ContentView.swift */; };
+		BE1234567890ABCF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEABCDEF1234567A /* HomeView.swift */; };
+		BE1234567890ABCG /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEABCDEF1234567B /* ShopView.swift */; };
+		BE1234567890ABCH /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEABCDEF1234567C /* ProductView.swift */; };
+		BE1234567890ABCI /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEABCDEF1234567D /* CartView.swift */; };
+		BE1234567890ABCJ /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEABCDEF1234567E /* ProfileView.swift */; };
+		BE1234567890ABCK /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEABCDEF1234567F /* Product.swift */; };
+		BE1234567890ABCL /* SupabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEABCDEF1234567G /* SupabaseService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BEABCDEF12345678 /* VibinApp.app */ = {isa = PBXFileReference; explicitFileType = "wrapper.application"; includeInIndex = 0; path = VibinApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEABCDEF12345678 /* VibinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibinApp.swift; sourceTree = "<group>"; };
+		BEABCDEF12345679 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BEABCDEF1234567A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BEABCDEF1234567B /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		BEABCDEF1234567C /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		BEABCDEF1234567D /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		BEABCDEF1234567E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		BEABCDEF1234567F /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		BEABCDEF1234567G /* SupabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseService.swift; sourceTree = "<group>"; };
+		BEABCDEF12345680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEABCDEF12345681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE1234567890ABCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEABCDEF12345601 /* = Project object */ = {
+			isa = PBXGroup;
+			children = (
+				BEABCDEF12345602 /* VibinApp */,
+				BEABCDEF12345603 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEABCDEF12345602 /* VibinApp */ = {
+			isa = PBXGroup;
+			children = (
+				BEABCDEF12345678 /* VibinApp.swift */,
+				BEABCDEF12345679 /* ContentView.swift */,
+				BEABCDEF1234567A /* HomeView.swift */,
+				BEABCDEF1234567B /* ShopView.swift */,
+				BEABCDEF1234567C /* ProductView.swift */,
+				BEABCDEF1234567D /* CartView.swift */,
+				BEABCDEF1234567E /* ProfileView.swift */,
+				BEABCDEF12345604 /* Models */,
+				BEABCDEF12345605 /* Services */,
+				BEABCDEF12345680 /* Assets.xcassets */,
+				BEABCDEF12345681 /* Info.plist */,
+			);
+			path = VibinApp;
+			sourceTree = "<group>";
+		};
+		BEABCDEF12345604 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BEABCDEF1234567F /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BEABCDEF12345605 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BEABCDEF1234567G /* SupabaseService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BEABCDEF12345603 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEABCDEF12345678 /* VibinApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEABCDEF12345610 /* VibinApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEABCDEF12345620 /* Build configuration list for PBXNativeTarget "VibinApp" */;
+			buildPhases = (
+				BE1234567890ABCD /* Sources */,
+				BE1234567890ABCD /* Frameworks */,
+				BE1234567890ABCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VibinApp;
+			productName = VibinApp;
+			productReference = BEABCDEF12345678 /* VibinApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEABCDEF12345600 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BEABCDEF12345610 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = BEABCDEF12345630 /* Build configuration list for PBXProject "VibinApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEABCDEF12345601;
+			productRefGroup = BEABCDEF12345603 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEABCDEF12345610 /* VibinApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE1234567890ABCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE1234567890ABCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1234567890ABCD /* VibinApp.swift in Sources */,
+				BE1234567890ABCE /* ContentView.swift in Sources */,
+				BE1234567890ABCF /* HomeView.swift in Sources */,
+				BE1234567890ABCG /* ShopView.swift in Sources */,
+				BE1234567890ABCH /* ProductView.swift in Sources */,
+				BE1234567890ABCI /* CartView.swift in Sources */,
+				BE1234567890ABCJ /* ProfileView.swift in Sources */,
+				BE1234567890ABCK /* Product.swift in Sources */,
+				BE1234567890ABCL /* SupabaseService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BEABCDEF12345640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"VibinApp/Preview Content\"";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEABCDEF12345641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"VibinApp/Preview Content\"";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEABCDEF12345642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VibinApp/Info.plist";
+				INFOPLIST_KEY_UI_APPLICATION_SCENE_MANIFEST_ENABLED = YES;
+				INFOPLIST_KEY_UI_APPLICATION_SUPPORTS_INDEPENDENT_SCENE = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibin.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Debug;
+		};
+		BEABCDEF12345643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VibinApp/Info.plist";
+				INFOPLIST_KEY_UI_APPLICATION_SCENE_MANIFEST_ENABLED = YES;
+				INFOPLIST_KEY_UI_APPLICATION_SUPPORTS_INDEPENDENT_SCENE = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibin.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEABCDEF12345630 /* Build configuration list for PBXProject "VibinApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEABCDEF12345640 /* Debug */,
+				BEABCDEF12345641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEABCDEF12345620 /* Build configuration list for PBXNativeTarget "VibinApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEABCDEF12345642 /* Debug */,
+				BEABCDEF12345643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEABCDEF12345600 /* Project object */;
 }
